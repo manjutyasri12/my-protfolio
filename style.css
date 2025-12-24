@@ -50,43 +50,80 @@
 #btn1{
     margin-top:10px;
     margin-left:18px;
+   
 }
 #btn2{
     margin-top:10px;
     margin-left:18px;
     text-decoration-color: blueviolet;
-}
-#btn3{
-    margin-top:10px;
-     margin-left:18px;
-    text-decoration-color: blueviolet;
-}
-#btn4{
-    margin-top:10px;
-     margin-left:18px;
-    text-decoration-color: blueviolet;
+    
 }
 
-#btn5{
-    margin-top:10px;
-    margin-left:18px;
+.btn3{
+    padding-top: 1px;
+    width: 600px;
+    display: flex;
+    /* background-color: aquamarine; */
+    height: 40px;
+    padding-left: 10px;}
+    /* border-color: rgb(192, 224, 62);
+} */
+
+#subutt1{
+   
+    padding-left: 15px;
+    width:60px;
+    background-color: transparent;
+    cursor:pointer;
+    border: None;
+    
 }
-#btn7{
-    margin-top:10px;
-    margin-left:18px;
+#subutt2{
+    
+    padding-left: 15px;
+    background-color: transparent;
+    cursor:pointer;
+    border: None;
 }
-#btn6{
-    margin-top:10px;
-    margin-left:18px;
+#subutt3{
+    background-color: transparent;
+    padding-left: 15px;
+    background-color: transparent;
+    cursor:pointer;
+    border: None;
 }
-#btn8{
-    margin-top:10px;
-    margin-left:18px;
+#subutt4{
+    background-color:transparent;
+    padding-left: 15px;
+     background-color: transparent;
+    cursor:pointer;
+    border: None;
+}
+#subutt5{
+    background-color: transparent;
+    padding-left: 15px;
+    padding-top:11px;
+    background-color: transparent;
+    cursor:pointer;
+    border: None;
+}
+#subutt6{
+    
+    padding-left: 10px;
+     background-color: transparent;
+    cursor:pointer;
+    border: None;
 }
 #fruits{
-    background-color: aquamarine;
+    background-color:rgb(192, 224, 62);
     height: 25px;
     width:150px;
+    border-color: rgb(192, 224, 62);
+    cursor: pointer;
+    width: 80px;
+     
+    
+    
 }
 .main{
     background-color: transparent;
@@ -110,19 +147,34 @@
 }
 .bpage{
     background-color: black;
-    height: 272px;
+    height: 300px;
     width:100%;
+    display: flex;
 }
 .about{
     height: 120px;
-    width: 700px;
+    width: auto;
     /* background-color: red; */
-    margin-left: 100px;
+     margin-left: 400px; 
     padding-top: 50px;
-    padding-left: 470px;
+    /* padding-left: 470px; */
 
 
 }
 #abtext{
     color: aliceblue;
+}
+#link{
+    background-color: greenyellow;
+    height: 20px;
+    border-radius:10%;
+    cursor: progress;
+    border-color: None;
+}
+img {
+  width: 1200px; /* Sets the width */
+  height: auto; /* Maintains the aspect ratio automatically */
+  /* Or you can use max-width for responsive design */
+  max-width: 100%;
+  padding-left: 20px;
 }
